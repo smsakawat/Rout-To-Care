@@ -3,7 +3,7 @@ import SelectedDoctorl from '../Selected-Doctor/SelectedDoctor';
 import './Cart.css';
 const Cart = (props) => {
     const { cart } = props || {};
-
+    //  get total salary
     const handleSalary = (previous, current) => previous + current.salary;
     const totalSalary = cart?.reduce(handleSalary, 0)
 

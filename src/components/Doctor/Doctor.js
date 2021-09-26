@@ -4,11 +4,13 @@ import React from 'react';
 import Rating from 'react-rating';
 import './Doctor.css';
 const Doctor = (props) => {
+    // destructing values  from prop
     const { name, age, country, profession, salary, img, rating } = props.doctor || {};
-
+    // font awesome icon
     const cartIcon = <FontAwesomeIcon
         icon={faList}
     ></FontAwesomeIcon>
+
     return (
         <div className='col-md-4 doctor-cart'>
             <div className="img-container overflow-hidden p-2">

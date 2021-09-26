@@ -7,8 +7,9 @@
     "country": "USA",
     "salary": 90000,
     "rating": 4.5,
-    "img": "https://www.webbspy.com/wp-content/uploads/2021/05/Dr.-Jorge-Herrera.png"
+    "img": "https://www.topdoctors.es/files/Doctor/profile/5a257013-5ec0-4ea0-abbf-184e8ac97da0.jpeg"
   },
+
   {
     "key": 7799,
     "name": "Dr.Michel Pfulg",
@@ -23,7 +24,7 @@
     "key": 7879,
     "name": " Dr.Khalid Abbed",
     "profession": " Neurologist",
-    "age": "42",
+    "age": "52",
     "country": "Germany",
     "salary": 65000,
     "rating": 4.9,
@@ -37,7 +38,7 @@
     "country": "England",
     "salary": 49000,
     "rating": 4.8,
-    "img": "https://www.topdoctors.es/files/Doctor/profile/5a257013-5ec0-4ea0-abbf-184e8ac97da0.jpeg"
+    "img": "https://www.topdoctors.co.uk/files/Doctor/results/prof_1196_20210512131110.png"
   },
   {
     "key": 5233,
@@ -67,7 +68,7 @@
     "country": "Argentina",
     "salary": 72000,
     "rating": 4.6,
-    "img": "https://www.webbspy.com/wp-content/uploads/2021/05/Dr.-Jason-Diamond.png"
+    "img": "https://www.topdoctors.co.uk/files/Doctor/results/prof_1451_20210429123156.png"
   },
   {
     "key": 6345,

@@ -8,7 +8,7 @@
   width: 100vw;
   display: table;
   height: 285px;
-  background: linear-gradient(rgba(29, 15, 15, 0.6), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(15, 15, 40, 0.6), rgba(0, 0, 0, 0.7)),
     url("../../images/doctor-bakcground.jpg");
 }
 .input-field {
@@ -25,6 +25,10 @@
   width: 350px;
 }
 .main-title {
-  font-weight: 550;
+  font-weight: 600;
   color: #fff;
+}
+.site-name {
+  font-weight: 600;
+  font-size: 1.5rem;
 }

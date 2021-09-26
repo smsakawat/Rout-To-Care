@@ -9,6 +9,7 @@ const Main = () => {
     // state declaration for cart
     const [cart, setCart] = useState([]);
 
+    // Handle cart state
     const handleCart = (doctor) => {
 
         if (!doctor.quntity) {
@@ -30,11 +31,6 @@ const Main = () => {
     }, [])
     return (
         <>
-
-            <div className="budget text-center mt-5">
-                <h2 className='fw-bold'>Total <span className='primary-color'>Doctors</span>: 2,975 </h2>
-            </div>
-
             <div className='main-container text-center row'>
 
                 <div className=" row col-md-9 g-4">
