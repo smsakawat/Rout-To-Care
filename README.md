@@ -1,6 +1,6 @@
 # RoutToCare
 
-A simple react SPA practice project,where we can hire doctors for our organization from oll over the world..
+A simple react SPA practice project using fake data,where we can hire doctors for our organization from oll over the world
 
 ### Live-Site lInk
 
