@@ -7,19 +7,24 @@
 .bg-container {
   width: 100vw;
   display: table;
-  height: 280px;
-  background: linear-gradient(rgba(20, 11, 11, 0.6), rgba(0, 0, 0, 0.7)),
+  height: 285px;
+  background: linear-gradient(rgba(29, 15, 15, 0.6), rgba(0, 0, 0, 0.7)),
     url("../../images/doctor-bakcground.jpg");
 }
-.search-btn {
-  outline: none;
-  border: 1px solid gray;
-  border-radius: 2px;
+.input-field {
+  position: relative;
 }
 .input-field i {
-  color: gray;
-  margin: 4px;
+  position: absolute;
+  color: rgb(139, 133, 133);
+  font-size: 14px;
+  top: 8px;
+  left: 2%;
 }
 .input-field input {
   width: 350px;
+}
+.main-title {
+  font-weight: 550;
+  color: #fff;
 }

@@ -3,13 +3,13 @@
   width: 270px;
   height: 400px;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease-in;
+  transition: transform 0.2s ease-in-out;
   margin-left: 30px;
   border-radius: 8px;
 }
 .doctor-cart:hover {
   /* transform-origin: bottom; */
-  transform: scale(1.013);
+  transform: scale(1.011);
   border: 1px solid #00315e;
 }
 .doctor-cart img {
@@ -25,7 +25,7 @@
   text-align: center;
 }
 .button {
-  background-image: linear-gradient(#083966, #0b457c);
+  background-image: linear-gradient(#083966, #144879);
   display: inline-block;
   padding: 8px 20px;
   color: #fff;
@@ -39,4 +39,7 @@
 }
 .button:hover {
   transform: scale(0.99);
+}
+.title {
+  font-weight: 800;
 }

@@ -1,0 +1,22 @@
+.selected-doctor img {
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+.selected-doctor {
+  width: 90%;
+  margin-top: 8px;
+  border: 1px solid #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+.selected-doctor:hover {
+  border: 1px solid #00315e;
+}

@@ -4,7 +4,7 @@ import React from 'react';
 import Rating from 'react-rating';
 import './Doctor.css';
 const Doctor = (props) => {
-    const { name, age, country, profession, fee, img, rating } = props.doctor || {};
+    const { name, age, country, profession, salary, img, rating } = props.doctor || {};
 
     const cartIcon = <FontAwesomeIcon
         icon={faList}
@@ -18,8 +18,8 @@ const Doctor = (props) => {
                 <h6 className='fw-bold'>{name} </h6>
                 <h6 className='text-primary'> {profession}</h6>
                 <h6>Age: {age}</h6>
-                <h6 className='text-primary'> {country}</h6>
-                <h6>Fee: <span className='text-success fw-bold'>${fee}</span></h6>
+                <h6 >Nationality: <span className='text-primary'>{country}</span></h6>
+                <h6>Salary: <span className='text-success fw-bold'>${salary}</span></h6>
                 <div className="rating text-warning ">
                     <Rating
                         initialRating={rating}

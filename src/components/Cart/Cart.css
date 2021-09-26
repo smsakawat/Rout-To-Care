@@ -9,5 +9,16 @@
   color: #fff;
 }
 .book-btn {
-  width: 160px;
+  background-image: linear-gradient(#083966, #144879);
+  display: inline-block;
+  padding: 8px 20px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #1e5f9c;
+  border-radius: 7px;
+  transition: all 0.15s;
+  box-shadow: 0 1px 1px #64a8e7;
+}
+.book-btn:hover {
+  transform: scale(0.99);
 }
