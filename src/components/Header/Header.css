@@ -1,0 +1,25 @@
+.header-container {
+  background-color: #00315e;
+  color: #fff;
+  height: 70px;
+  overflow: hidden;
+}
+.bg-container {
+  width: 100vw;
+  display: table;
+  height: 280px;
+  background: linear-gradient(rgba(20, 11, 11, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../../images/doctor-bakcground.jpg");
+}
+.search-btn {
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+.input-field i {
+  color: gray;
+  margin: 4px;
+}
+.input-field input {
+  width: 350px;
+}
